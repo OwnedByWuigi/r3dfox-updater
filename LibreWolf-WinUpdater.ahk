@@ -3,7 +3,7 @@
 ;@Ahk2Exe-SetProductVersion 1.11.0
 
 ;@Ahk2Exe-Base Unicode 64*
-;@Ahk2Exe-SetCompanyName Eclipse Community, LibreWolf Community
+;@Ahk2Exe-SetCompanyName Eclipse Community - LibreWolf Community
 ;@Ahk2Exe-SetCopyright ltguillaume
 ;@Ahk2Exe-SetDescription r3dfox Updater
 ;@Ahk2Exe-SetMainIcon LibreWolf-WinUpdater.ico
@@ -933,3 +933,4 @@ RunUnelevated(Prms*) {
 		Return False
 
 }
+
