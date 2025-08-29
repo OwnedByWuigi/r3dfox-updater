@@ -1,11 +1,7 @@
-<img src="LibreWolf-WinUpdater.ico" align="right">
+# r3dfox Updater
+fork of LibreWolf WinUpdater by ltGuillaume: [Codeberg](https://codeberg.org/ltguillaume) | [GitHub](https://github.com/ltguillaume)
 
-# LibreWolf WinUpdater
-by ltGuillaume: [Codeberg](https://codeberg.org/ltguillaume) | [GitHub](https://github.com/ltguillaume) | [Buy me a beer](https://coff.ee/ltguillaume) 🍺
-
-An attempt to make updating LibreWolf for Windows much easier.
-
-![LibreWolf WinUpdater](SCREENSHOT.png)
+An attempt to make updating r3dfox much easier
 
 ## Getting started
 - If you want to run the portable version of LibreWolf, download and extract [`librewolf-xxx.x.x-windows-x86_64-portable.zip`](https://librewolf.net/installation/windows/) (second blue button). It already contains a compiled version of the project hosted here.  
@@ -42,3 +38,4 @@ An attempt to make updating LibreWolf for Windows much easier.
 ## Credits
 * [LibreWolf](https://librewolf.net) by [ohfp](https://gitlab.com/ohfp), [stanzabird](https://stanzabird.nl), [fxbrit](https://gitlab.com/fxbrit), [maltejur](https://gitlab.com/maltejur), [bgstack15](https://bgstack15.wordpress.com) et al.
 * Original icon by the [LibreWolf Community](https://gitlab.com/librewolf-community/branding/-/tree/master/icon)
+
