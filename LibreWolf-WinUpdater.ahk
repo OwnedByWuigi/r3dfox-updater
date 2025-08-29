@@ -1,15 +1,15 @@
-; LibreWolf WinUpdater - https://codeberg.org/ltguillaume/librewolf-winupdater
+; r3dfox Updater, a fork of LibreWolf WinUpdater - https://codeberg.org/ltguillaume/librewolf-winupdater
 ;@Ahk2Exe-SetFileVersion 1.11.0
 ;@Ahk2Exe-SetProductVersion 1.11.0
 
 ;@Ahk2Exe-Base Unicode 64*
-;@Ahk2Exe-SetCompanyName LibreWolf Community
+;@Ahk2Exe-SetCompanyName Eclipse Community, LibreWolf Community
 ;@Ahk2Exe-SetCopyright ltguillaume
-;@Ahk2Exe-SetDescription LibreWolf WinUpdater
+;@Ahk2Exe-SetDescription r3dfox Updater
 ;@Ahk2Exe-SetMainIcon LibreWolf-WinUpdater.ico
 ;@Ahk2Exe-AddResource LibreWolf-WinUpdaterBlue.ico, 160
-;@Ahk2Exe-SetOrigFilename LibreWolf-WinUpdater.exe
-;@Ahk2Exe-SetProductName LibreWolf WinUpdater
+;@Ahk2Exe-SetOrigFilename r3dfox Updater.exe
+;@Ahk2Exe-SetProductName r3dfox Updater
 ;@Ahk2Exe-PostExec ResourceHacker.exe -open "%A_WorkFileName%" -save "%A_WorkFileName%" -action delete -mask ICONGROUP`,206`, ,,,,1
 ;@Ahk2Exe-PostExec ResourceHacker.exe -open "%A_WorkFileName%" -save "%A_WorkFileName%" -action delete -mask ICONGROUP`,207`, ,,,,1
 ;@Ahk2Exe-PostExec ResourceHacker.exe -open "%A_WorkFileName%" -save "%A_WorkFileName%" -action delete -mask ICONGROUP`,208`, ,,,,1
@@ -18,9 +18,9 @@
 #SingleInstance, Off
 
 Global Args       := ""
-, Browser         := "LibreWolf"
-, BrowserExe      := "librewolf.exe"
-, BrowserPortable := "LibreWolf\" BrowserExe
+, Browser         := "r3dfox"
+, BrowserExe      := "r3dfox.exe"
+, BrowserPortable := "r3dfox\" BrowserExe
 , ConnectCheckUrl := "https://gitlab.com/-/manifest.json"
 , ReleaseApiUrl   := "https://gitlab.com/api/v4/projects/44042130/releases/permalink/latest"
 , SetupParams     := "/D={}"
@@ -931,4 +931,5 @@ RunUnelevated(Prms*) {
 		Return True
 	} Catch e
 		Return False
+
 }
