@@ -2,4 +2,4 @@
 <p><i>fork of LibreWolf WinUpdater by ltGuillaume</i></p>
 An attempt to make updating r3dfox much easier
 
-<img src="SCREENSHOT.webp" height="100px">
+<img src="SCREENSHOT.webp" height="300px">
