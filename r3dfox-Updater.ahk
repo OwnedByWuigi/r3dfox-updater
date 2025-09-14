@@ -211,7 +211,7 @@ CheckPaths() {
 		If (!Path) {
 			RegRead, Path, HKLM\SOFTWARE\Clients\StartMenuInternet\%Browser%\shell\open\command
 			If (ErrorLevel)
-				Path := ProgramW6432 "\" Browser "\" BrowserExe
+				Path := ProgramW6432 "\Eclipse Community\r3dfox\r3dfox.exe"
 		}
 		Path := Trim(Path, """")	; FileExist chokes on double quotes
 	}
